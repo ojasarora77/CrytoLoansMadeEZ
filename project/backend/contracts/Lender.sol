@@ -12,7 +12,7 @@ import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 import "project/backend/contracts/Borrower.sol";
 
 contract Lender is ERC721, ERC721Pausable, IERC721Receiver {
-    address constant token = 0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE;
+    address constant token = 0x5a5062FbA89BC788D0BeE8e441C28EcB8B677fb3;
 
     uint256 private principal; // Amount of XRP lent in drop
     uint32 private interest; // % interest between 0 and 1000
